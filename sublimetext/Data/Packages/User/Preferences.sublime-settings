@@ -2,7 +2,7 @@
 // and are overridden in turn by syntax-specific settings.
 {
 	"default_line_ending": "unix",
-	"translate_tabs_to_spaces": false,
+	"translate_tabs_to_spaces": true,
 	"tab_size": 4,
 	"draw_white_space": "all"
 }
