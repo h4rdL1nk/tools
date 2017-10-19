@@ -1,0 +1,7 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
+{
+	"default_line_ending": "unix",
+	"translate_tabs_to_spaces": false,
+	"tab_size": 4,	
+}
