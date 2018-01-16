@@ -1,26 +1,100 @@
 [global_config]
+  suppress_multiple_term_dialog = True
 [keybindings]
 [layouts]
   [[default]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 9484a241-1147-4a24-b814-3a60692a317b
+      last_active_window = True
+      maximised = False
+      order = 0
+      parent = ""
+      position = 94:83
+      size = 1440, 857
+      title = luismy@m1ss1ngn0: ~
+      type = Window
     [[[child1]]]
-      parent = window0
+      order = 0
+      parent = child0
+      position = 3
+      ratio = 0.00350058343057
+      type = VPaned
+    [[[child3]]]
+      order = 1
+      parent = child1
+      position = 427
+      ratio = 0.500586166471
+      type = VPaned
+    [[[terminal2]]]
+      order = 0
+      parent = child1
       profile = default
       type = Terminal
-    [[[window0]]]
+      uuid = e6edb2c6-3fa5-4a28-b238-16adb1bf9a15
+    [[[terminal4]]]
+      order = 0
+      parent = child3
+      profile = default
+      type = Terminal
+      uuid = 9484a241-1147-4a24-b814-3a60692a317b
+    [[[terminal5]]]
+      order = 1
+      parent = child3
+      profile = default
+      type = Terminal
+      uuid = 4ed1e72f-791f-407b-9af1-3bd6b627e0ee
+  [[Nuevo Diseño]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 9484a241-1147-4a24-b814-3a60692a317b
+      last_active_window = True
+      maximised = False
+      order = 0
       parent = ""
-      position = 150:100
-      size = 1000, 700
+      position = 94:83
+      size = 1440, 857
+      title = luismy@m1ss1ngn0: ~
       type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 3
+      ratio = 0.00350058343057
+      type = VPaned
+    [[[child3]]]
+      order = 1
+      parent = child1
+      position = 427
+      ratio = 0.500586166471
+      type = VPaned
+    [[[terminal2]]]
+      order = 0
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = e6edb2c6-3fa5-4a28-b238-16adb1bf9a15
+    [[[terminal4]]]
+      order = 0
+      parent = child3
+      profile = default
+      type = Terminal
+      uuid = 9484a241-1147-4a24-b814-3a60692a317b
+    [[[terminal5]]]
+      order = 1
+      parent = child3
+      profile = default
+      type = Terminal
+      uuid = 4ed1e72f-791f-407b-9af1-3bd6b627e0ee
 [plugins]
 [profiles]
   [[default]]
-    background_darkness = 0.85
-    background_image = None
+    background_darkness = 0.9
     background_type = transparent
     copy_on_selection = True
-    cursor_color = "#00ff00"
-    font = DejaVu Sans Mono 10
+    cursor_color = "#aaaaaa"
+    font = Inconsolata Medium 13
     foreground_color = "#00ff00"
-    scrollback_infinite = True
+    scrollback_lines = 10000
     use_system_font = False
     visible_bell = True
