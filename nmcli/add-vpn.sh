@@ -1,0 +1,1 @@
+nmcli connection add type vpn con-name "vpn-name" ifname "*" vpn-type openconnect vpn.service-type org.freedesktop.NetworkManager.openconnect
