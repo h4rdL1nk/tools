@@ -1,0 +1,5 @@
+[user]
+        name = <work_user> 
+        email = <work_mail> 
+[http]
+        sslVerify = false

@@ -1,0 +1,4 @@
+[includeIf "gitdir:~/pdihub/"]
+    path = .gitconfig-work
+[includeIf "gitdir:~/github/"]
+    path = .gitconfig-personal
